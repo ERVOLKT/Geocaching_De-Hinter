@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>     
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="ng_Dehinter.css">
+        <script src=""></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script src="ng_Dehinter.js"></script>  
+    </head>
+    <body>
+        <div ng-app="myApp" ng-controller="personCtrl">
+            <h1>Input:</h1>
+            <input type="text" ng-model="person.input"><br>
+            <div>
+                <br>
+               <h1 class="outbox">Output:</h1> {{decrypt()}}
+            </div>
+        </div>
+    </body>
+</html>

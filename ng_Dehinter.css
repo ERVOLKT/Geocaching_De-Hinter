@@ -1,0 +1,15 @@
+body {
+text-align: center;
+}
+
+h1 {
+    color: cadetblue;
+}
+
+.outbox {
+    color: forestgreen;
+}
+
+input {
+    box-shadow: lightgrey 3px 3px 0px;    
+}
